@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+app.py
+xyz.py
+=======
+app.py
+xyz.py
+>>>>>>> 5973802 (added the files of MovieVerse)
+env
