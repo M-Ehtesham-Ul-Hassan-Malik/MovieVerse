@@ -4,6 +4,9 @@ import requests
 import os
 import gdown
 
+# Page Configuration (MUST BE FIRST)
+st.set_page_config(page_title="Netflix-like Recommender", layout="wide")
+
 # Google Drive se download karne ke liye direct link
 drive_file_id = "15OVcpDYArS81gt5s8dzh4NUdzhHVQF0X"  # Apni file ka ID yahan paste karo
 drive_link = f"https://drive.google.com/uc?id={drive_file_id}"
@@ -17,9 +20,6 @@ if not os.path.exists("similarity.pkl"):
 # Load Data
 movies = pickle.load(open('movies.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
-
-# Page Configuration (MUST BE FIRST)
-st.set_page_config(page_title="Netflix-like Recommender", layout="wide")
 
 # Custom CSS for a Netflix-like UI
 st.markdown("""
