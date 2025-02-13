@@ -13,7 +13,7 @@
 
 
 ## Live Demo  
-![MovieVerse](https://mymovieverse.streamlit.app/)  
+[MovieVerse](https://mymovieverse.streamlit.app/)  
 
 
 
